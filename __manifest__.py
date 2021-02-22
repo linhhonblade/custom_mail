@@ -6,17 +6,19 @@
         Custom config for mail in odoo aht erp""",
 
     'description': """
-        Force sender email address
+        Customizations include:
+            - Force email_from value to only one specific email address instead of using the 
+            sender email address
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "linhhonblade",
+    'website': "https://github.com/linhhonblade",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Uncategorized',
-    'version': '0.1',
+    'version': '14.0.1',
 
     # any module necessary for this one to work correctly
     'depends': ['mail'],
@@ -24,8 +26,8 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        # 'views/views.xml',
+        # 'views/templates.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

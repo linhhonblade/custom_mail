@@ -2,4 +2,3 @@
 
 from . import mail_mail_monkeypatch
 from . import ir_mail_server_monkeypatch
-# from . import mail_message_monkeypatch
