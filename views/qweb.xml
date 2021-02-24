@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="custom_mail.Activity" t-inherit="mail.Activity" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[@class='o_Activity_core']/t" position="attributes">
+            <attribute name="t-if">!state.areDetailsVisible</attribute>
+        </xpath>
+    </t>
+</templates>
