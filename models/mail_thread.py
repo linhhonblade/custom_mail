@@ -4,9 +4,9 @@ import logging
 
 import threading
 
-from odoo import _, api, exceptions, tools, registry, SUPERUSER_ID
+from odoo import _, api, exceptions, registry, SUPERUSER_ID
 
-from odoo.tools.misc import clean_context, split_every
+from odoo.tools.misc import split_every
 from odoo.addons.mail.models.mail_thread import MailThread
 
 _logger = logging.getLogger(__name__)
